@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Card from ".";
+import Card from "../components/Card";
 
 test("Should show personal info", () => {
   //renderizar

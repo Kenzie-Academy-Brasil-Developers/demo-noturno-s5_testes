@@ -1,11 +1,12 @@
 import "./App.css";
-import Card from "./components/Card";
+import List from "./components/List";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Card name="" city="" />
+        <p>learn react</p>
+        <List />
       </header>
     </div>
   );
