@@ -1,14 +1,15 @@
-import "./App.css";
-import List from "./components/List";
+import React from "react";
+import Routes from "./routes";
+import GlobalStyle from "./styles/global";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>learn react</p>
-        <List />
-      </header>
-    </div>
+    <>
+      <Header />
+      <Routes />
+      <GlobalStyle />
+    </>
   );
 }
 
