@@ -1,12 +1,11 @@
 import "./App.css";
-import List from "./components/List";
+import CardDigimon from "./components/CardDigimon";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>learn react</p>
-        <List />
+        <CardDigimon />
       </header>
     </div>
   );
